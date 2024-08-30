@@ -11,7 +11,7 @@
 .logoDiv {
    width: 50px;
    height: 50px;
-   animation: Rotate 1s ease-out 2s infinite, Scale 2s ease  ;
+   animation: Rotate 1s ease-out 2s infinite  ;
 }
 .text{
 
@@ -46,7 +46,7 @@ opacity: 0;
    }
 }
 
-@keyframes Scale {
+/* @keyframes Scale {
    to {
        transform: scale(1, 1) rotate(0deg);
        
@@ -54,44 +54,26 @@ opacity: 0;
    from {
        transform: scale(3, 3) rotate(-90deg) ;
    }
-}
+} */
 
 
 
-.logoParent{
-    
-    
-    
-    animation-name: RotateCurv; 
-    animation-duration: 1s; 
-    animation-timing-function: ease;
-    position: relative;
-    
-}
 
-.stickDiv{
-    position: absolute;
 
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    opacity: 0;
-    animation: stick 2s forwards 1s;
 
-}
 
-@keyframes stick{
+/* @keyframes stick{
     from{
         opacity: 0;
     }
     to{
         opacity: 1;
     }
-}
+} */
 
 
 
-
+/* 
 @keyframes RotateCurv {
      to {
         transform: translateY(0px);
@@ -102,7 +84,7 @@ opacity: 0;
     from {
        transform: translate(-100px,500px);
     }
-}  
+}   */
        
 
 
