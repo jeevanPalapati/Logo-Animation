@@ -76,7 +76,7 @@ opacity: 0;
     left: 50%;
     transform: translate(-50%,-50%);
     opacity: 0;
-    animation: stick 2s forwards 0.7s;
+    animation: stick 2s forwards 1s;
 
 }
 
