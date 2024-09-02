@@ -1,21 +1,21 @@
 import React from 'react'
 import {ReactComponent as Logo} from "../assets/Logo.svg"
 import {ReactComponent as Stick} from "../assets/stick.svg"
-import "./LogoAnimation.css"
+import "./NormalLogo.css"
 import NavBar from './NavBar'
 
 const NormalLogo = () => {
   return (
     <>
     <NavBar/>
-    <div className='mainBody' >
-        <div className='mainDiv' >
-          <div className='logoParent'>
+    <div className='mainBodyNormal' >
+        <div className='mainDivNormal' >
+          <div className='logoParentNormal'>
             
-        <Logo className='logoDiv'/>
+        <Logo className='logoDivNormal'/>
     
           </div>
-        <div className='text'>Own Your Future</div>
+        <div className='textNormal'>Own Your Future</div>
   
       </div>
     </div>

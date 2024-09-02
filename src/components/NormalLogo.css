@@ -1,6 +1,6 @@
 @import "https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap";
 
-.mainDiv{
+.mainDivNormal{
 
     display:flex;
     justify-content: center;
@@ -8,15 +8,15 @@
     gap: 0.7vw;
     height: 100%;
 }
-.logoDiv {
+.logoDivNormal {
    width: 50px;
    height: 50px;
-   animation: Rotate 1s ease-out 2s infinite  ;
+   animation: RotateNormal 1s ease-out 1s infinite  ;
 }
-.text{
+.textNormal{
 
 opacity: 0;
-    animation: word 2s forwards 1.3s;
+    animation: wordNormal 2s forwards 1s;
 
     color: #E7E7E7;
     color: color(display-p3 0.9075 0.9075 0.9075);
@@ -28,7 +28,7 @@ opacity: 0;
     line-height: normal;
 }
 
-@keyframes word{
+@keyframes wordNormal{
     from{
         opacity: 0;
     }
@@ -37,7 +37,7 @@ opacity: 0;
     }
 }
 
-@keyframes Rotate {
+@keyframes RotateNormal {
    from {
        transform: rotate(0deg);
    }
@@ -46,49 +46,16 @@ opacity: 0;
    }
 }
 
-/* @keyframes Scale {
-   to {
-       transform: scale(1, 1) rotate(0deg);
-       
-   }
-   from {
-       transform: scale(3, 3) rotate(-90deg) ;
-   }
-} */
 
 
 
 
 
 
-
-/* @keyframes stick{
-    from{
-        opacity: 0;
-    }
-    to{
-        opacity: 1;
-    }
-} */
-
-
-
-/* 
-@keyframes RotateCurv {
-     to {
-        transform: translateY(0px);
-    }
-
-
-   
-    from {
-       transform: translate(-100px,500px);
-    }
-}   */
        
 
 
-.mainBody{
+.mainBodyNormal{
     background-color: black;
     height: 96%;
     width: 100%; 
