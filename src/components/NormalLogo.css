@@ -11,12 +11,12 @@
 .logoDivNormal {
    width: 50px;
    height: 50px;
-   animation: RotateNormal 1s ease-out 1s infinite  ;
+   animation: RotateNormal 1s ease-out  infinite  ;
 }
 .textNormal{
 
 opacity: 0;
-    animation: wordNormal 2s forwards 1s;
+    animation: wordNormal 2s forwards ;
 
     color: #E7E7E7;
     color: color(display-p3 0.9075 0.9075 0.9075);
